@@ -1,0 +1,24 @@
+{
+    "description": "", 
+    "name": "tutor/composer",
+    "authors": [
+        {
+            "name": "villageworks",
+            "email": "villageworks2013@gmail.com"
+        }
+    ],
+    "require": {
+        "felixfbecker/language-server": "*",
+        "ext-PDO": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "kornrunner/dbunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+			"application\\": "F:/workspace/villageworks/php/employeedb/application",
+			"test\\": "F:/workspace/villageworks/php/employeedb/test"
+        }
+    }
+}
